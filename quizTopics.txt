@@ -1,0 +1,22 @@
+########### TOPICS ###################
+1. input/prompt
+2. variables (assignment)
+3. functions
+4. escape sequences \n, \' \t etc
+5. Logic / Boolean Logic
+6. commands for the command line: cd, ls, cat, find, grep, touch etc
+7. Reading files
+8. Writing files
+9. file modes (create, read, write, append)
+10. Errors/ Types of Errors
+11. comments
+12. Conditionals (if, elseif etc)
+13. import libraries (import sys, os.path, math, datetime, time)
+14. using arguments in a script()
+15. comparision operatiors
+16. formatting (string.format{})
+17. dataTypes (int, str, float, boolean, bytes etc)
+18. Scope (local and global)
+19. For loop
+20. While loop
+21. Camel vs. snake case
