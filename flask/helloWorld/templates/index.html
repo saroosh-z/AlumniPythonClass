@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World</title>
+</head>
+<body>
+	{% if day == 'thursday' %}
+		<h2>Good Evening {{user}}</h2>
+	{% else %}
+		{% if day == 'saturday' %}
+		<h2>Good Morning {{ user }}</h2>
+		{% endif %}
+	{% endif %}
+	<h5>Welcome again</h5>
+	<p>write some text</p>
+	<a href="https://www.google.com">
+		<img src="https://www.google.com/logos/doodles/2017/s-chandrasekhars-107th-birthday-5671696282419200-2xa.gif">
+	</a>
+	<form method="GET">
+		FirstName <input type="text" name="">
+		<button>Submit</button>
+
+	</form>
+
+
+</body>
+</html>

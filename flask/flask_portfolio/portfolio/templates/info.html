@@ -1,0 +1,27 @@
+
+<h4>On this page, I have a HTML table and a Form. Table shows all the data I already have
+and form is for you to post</h4>
+
+
+<p> Name and messages are store in a list with each of it's element being a seperate dictionary that has a key name and second key message. Values to these keys are entered using the form below</p>
+
+{% for i in messages%}
+<table>
+	<tr>
+		<td> {{i.name}} said: {{i.message}} </td>
+	</tr>
+</table>
+{% endfor %}
+
+
+<h3> Post a message for world to see: </h3>
+
+<form method="POST" action="/info">
+	<input type="text" name="name" placeholder="Your Name"> <br> <br> 
+	<textarea name='message' placeholder="Your message "></textarea> <br> <br>
+	<button>Post</button>
+</form>
+
+<p> I did that using a POST method. I want you to do something similar for your website. It's not hard if you pay attention in class and review slides.</p>
+
+<a href="/">back to home</a>
